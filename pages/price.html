@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta name="keywords"
+    content="微客服 在线客服系统 微信客服系统 智能客服系统 即时通讯云 企业协作系统 工单系统 App android ios 苹果 安卓 微信 微信公众平台 微服务 android iOS 微客服 App客服  App在线客服 App 在线咨询 移动开发者服务平台 微客服  在线客服  微博 新浪微博 腾讯微博 搜狐微博 网易微博 微博通 人人网 开心网 微信 微语 聊天 移动聊天 免费 发信息 发图片 语音 weixin 离线消息 微博 私信 流量" />
+  <meta name="description"
+    content="微客服 卓越的在线客服系统 微信客服系统 智能客服系统 即时通讯云 企业协作系统 工单系统 android ios 苹果 安卓 微信 微信公众平台 微服务 微客服 App在线客服 App在线咨询 android iOS 安卓 移动开发者服务平台 一款跨平台的在线客服工具。支持多个微博、绑定多个账号。通过获取微博用户关系链、粉丝、好友，挖掘潜在客户。" />
+  <meta name="author" content="微客服">
+  <meta name="generator" content="Bootply" />
+
+  <title>微客服-App在线客服-微信在线客服-智能客服机器人-移动开发者服务平台-专业在线客服系统</title>
+
+  <link rel="icon" href="../../../favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="../assets/css/mystyle.css" rel="stylesheet">
+  <link href="../assets/css/prices.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">萝卜丝(原微客服)</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <!-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">所有产品 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="human.html" target="_blank">在线客服系统</a></li>
+              <li><a href="robot.html" target="_blank">智能客服系统</a></li>
+              <li><a href="wechat.html" target="_blank">微信客服系统</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">即将推出</li>
+              <li><a href="imyun.html" target="_blank">即时通讯云</a></li>
+              <li><a href="wuxieyun.html" target="_blank">企业协作办公</a></li>
+              <li><a href="https://www.weikefu.net/xiaper/" target="_blank">虾婆-开源IM</a></li>
+            </ul>
+          </li> -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">产品案例 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../index.html#partner">部分案例展示</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">集团定制</li>
+              <li><a href="case-migu.html" target="_blank">中国移动</a></li>
+              <li><a href="case-shiyou.html" target="_blank">中国石化</a></li>
+              <li><a href="case-hejiating.html" target="_blank">中移铁通</a></li>
+              <li><a href="case-shenma.html" target="_blank">神州数码</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">金融</li>
+              <li><a href="case-soyidai.html" target="_blank">搜易贷</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">电商</li>
+              <li><a href="case-quchenshi.html" target="_blank">屈臣氏</a></li>
+              <li><a href="case-julaibao.html" target="_blank">聚来宝</a></li>
+              <li><a href="case-1yuangou.html" target="_blank">1元会购</a></li>
+            </ul>
+          </li>
+          <li><a href="price.html" target="_blank">价格方案</a></li>
+          <li><a href="bkaccount.html" target="_blank">付款账号</a></li>
+          <li><a href="download.html" target="_blank">下载地址</a></li>
+          <li><a href="https://vip.docs.bytedesk.com/" target="_blank">开发文档</a></li>
+          <li><a href="https://luobosi.weikefu.net" target="_blank">帮助文档</a></li>
+          <!-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">帮助支持 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="faq.html" target="_blank">常见问题</a></li>
+              <li><a href="about.html" target="_blank">关于我们</a></li>
+            </ul>
+          </li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=270580156&site=qq&menu=yes"><img border="0"
+                src="http://wpa.qq.com/pa?p=2:270580156:41" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+          </li>
+          <li><a href="../admin/#/" target="_blank">管理员登录</a></li>
+          <li><a href="../chaty/#/" target="_blank">客服登录</a></li>
+          <li><a href="../admin/#/antv/user/register" target="_blank">注册账号</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="holderjs" id="title">
+        <h1>价格方案</h1>
+        <p>可能是性价比最高的云在线客服系统</p>
+        <p><a class="btn btn-lg btn-primary" href="bkaccount.html" role="button" target="_blank">公司银行账号</a></p><br />
+      </div>
+    </div>
+  </div>
+
+  <!-- Section: pricing -->
+  <div class="featurette">
+    <div class="container">
+      <div class="row">
+        <!-- BEGIN CONTAINER -->
+        <div class="container min-hight">
+          <!-- BEGIN PRICING OPTION1 -->
+          <div class="row margin-bottom-40">
+            <div class="col-md-4">
+              <div class="pricing">
+                <div class="pricing-head">
+                  <h3>
+                    免费试用
+                  </h3>
+                  <h4>
+                    <i>￥</i>0<i>.00</i> <span>每年/客服账号</span>
+                  </h4>
+                </div>
+                <ul class="pricing-content list-unstyled">
+                  <li>可分配客服/客服账号(可同时在线)：1个</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 最大接待量：10</li>
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 支持对接会员信息：否</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 支持自定制界面：是</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i> 支持人工客服：是</li>
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 支持离线消息：否</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i> 支持留言功能：是</li>
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 支持自定义菜单：否</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 支持机器人：否</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 支持排队咨询：否</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i> 支持对接微信：是</li>
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 在线客服/QQ技术支持：是</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 7x24 电话支持：否</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 数据导出：否</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i> 会话记录：免费存储30天</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 免费试用3天</li>
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 可隐藏App客服logo：否</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-remove"></i> 带宽：普通带宽</li> -->
+                </ul>
+                <div class="pricing-footer">
+                  <a href="../admin/#/antv/user/register" target="_blank" class="btn theme-btn">免费注册</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="pricing">
+                <div class="pricing-head">
+                  <h3>
+                    付费用户
+                  </h3>
+                  <h4>
+                    <i>￥</i>699<i>.00</i> <span>每年/客服账号，月付99元</span>
+                  </h4>
+                </div>
+                <ul class="pricing-content list-unstyled">
+                  <!-- <li>享受所有功能,近期优惠活动: 购买1个客服账号,送1个客服账号</li>
+                  <li>买2年,送1年</li>                -->
+                  <li>以下所有功能均不限条数、次数</li>
+                  <li style="color: red;"><i class="glyphicon glyphicon-ok"></i> 0.一个客服账号可以对接多个APP、网站，数量不限</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 1.机器人智能客服</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 2.人工客服</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 3.离线消息</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 4.留言功能</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 5.排队咨询</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 6.对接微信</li>
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 7x24电话支持：是</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i> 7.数据导出</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 8.统计数据</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 9.数据加密</li>
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 可隐藏App客服logo</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 带宽：高速带宽</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i> 10.全渠道接入(网站/H5/公众号/小程序/安卓/苹果APP)</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 11.对话标签</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 12.顾客标签</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 13.顾客名片</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 14.访客列表</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 15.快捷回复</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 16.对话协作</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 17.自动消息</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 18.历史对话</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 19.客服评价</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 20.访客拉黑</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 21.消息预知</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 22.消息撤回</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 23.对话小结</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 24.商品卡片</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 25.对话防刷</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 26.意见反馈</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 27.自定义界面</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 28.对接小程序</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 29.对接会员信息</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 30.最大接待量不限</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 31.会话记录永久保存</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 32.支持发送qq/微信等截图</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 32.客服常用语</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 33.客服输入快捷提示</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 34.自定义欢迎语/结束语</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 35.自定义上下班时间</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 36.自定义会话自动关闭时长</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 37.安卓/苹果手机/Windows/Mac/Web客服端</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 38.访客地域/IP</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 39.知识库(内部/外部知识库)</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 40.团队内部通知/公告(会议通知等)</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 41.API接口</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 42.自定义客户资料</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 43.支持中英文</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 44.对话转接</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 45.对话监控</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 46.对话强插</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 47.来访监听(跟踪显示网站在线访客)</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 48.邀请会话(客服主动邀请访客会话)</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 49.客服之间一对一会话</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 50.客服内部讨论组/建群</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 51.对接CRM客户管理</li>
+                  <li><i class="glyphicon glyphicon-ok"></i><a href="http://weikefu.net/pages/etool.html"
+                      target="_blank">52.微信客服助手</a></li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 53.消息送达状态</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 54.消息已读状态</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 55.敏感词监控/拦截</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 56.多权限角色</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 57.敏感操作日志</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 58.专属技术支持</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 59.多种客服接待状态：在线、小休、忙线</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 60.询前表单/发送表单</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 61.实时展示客服工作数据考核指标</li>
+                  <li><i class="glyphicon glyphicon-ok"></i> 62.iframe嵌入</li>
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i> 53.工单协作</li> -->
+
+                </ul>
+                <div class="pricing-footer">
+                  <a href="../admin/#/antv/user/register" target="_blank" class="btn theme-btn">免费注册</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="pricing">
+                <div class="pricing-head">
+                  <h3>
+                    集团私有部署
+                  </h3>
+                  <h4>
+                    <i>￥</i>9999<i>.00</i>
+                    <span>每年/每台服务器，坐席699元/年</span>
+                    <span style="color: red;">或 一次性买断，无二次收费，坐席数量不限，价格请扫下面二维码添加企业微信</span>
+                  </h4>
+                </div>
+                <ul class="pricing-content list-unstyled">
+                  <li><i class="glyphicon glyphicon-ok"></i>支持所有客服功能</li>
+                  <li><i class="glyphicon glyphicon-ok"></i>数据完全私有，安全可控</li>
+                  <li><i class="glyphicon glyphicon-ok"></i>支持远程部署</li>
+                  <li><i class="glyphicon glyphicon-ok"></i>不限域名数量</li>
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i>现场部署需另外付费</li> -->
+                  <!-- <li><i class="glyphicon glyphicon-ok"></i>支持对接已有CRM等系统</li> -->
+                  <li><i class="glyphicon glyphicon-ok"></i>默认含web客服端(不含pc和手机客服端)</li>
+                </ul>
+                <div class="pricing-footer">
+                  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=270580156&site=qq&menu=yes"><img border="0"
+                      src="http://wpa.qq.com/pa?p=2:270580156:41" alt="点击这里给我发消息" title="点击这里给我发消息" />联系我们</a><br />
+                  <!-- 邮箱:270580156@qq.com -->
+                  <!-- <br />010-59065424<br> -->
+                  <img alt="服务号" src="../assets/img/luobosi_mp.png"" height=" 150px" width="150px"><br />微信服务号<br />
+                  <img alt="企业微信客服" src="https://cdn.bytedesk.com/img/qrcode/qiye.png" height="150px"
+                    width="150px"><br />企业微信客服
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END PRICING OPTION1 -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Section: pricing -->
+
+  <!-- <div class="container tip">
+    <div class="row">
+      <h5>什么是坐席？</h5>
+      <p>坐席指一个管理员账号下，同时登录App客服系统的客服数量。例如某个公司有5个客服人员，每个客服人员都有一个登录账号，但如果该公司的坐席数是2， 则允许2个客服人员同时登录App客服端。
+      </p>
+    </div>
+  </div> -->
+
+  <hr class="featurette-divider">
+
+  <!-- BEGIN FOOTER -->
+  <footer>
+    <div class="container footer">
+      <div class="row">
+        <!-- BEGIN ABOUT -->
+        <div class="col-md-4 col-sm-4 space-mobile">
+          <h5>关于</h5>
+          <p class="margin-bottom-30">App客服，致力于为App开发者提供极致用户体验的在线客服SDK.</p>
+          <div class="clearfix"></div>
+        </div>
+        <!-- END ABOUT -->
+        <div class="col-md-4 col-sm-4 space-mobile">
+          <h5>联系我们</h5>
+          <p class="margin-bottom-40">北京市海淀区上地创新大厦3层 <br /> Email: <a
+              href="mailto:270580156@qq.com">270580156@qq.com</a></br>
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h5>其他</h5>
+          <p class="margin-bottom-30">专业的App内在线客服解决方案提供商<br />技术支持 QQ 3群: 825257535</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="container fbottom">
+      <div class="row">
+        <p class="margin-right-10">2013~2022 &copy;北京微语天下科技有限公司, WeiKeFu.net &middot;<a
+            href="https://beian.miit.gov.cn/" target="_blank">京ICP备17041763号-1</a>
+          <script src="https://s11.cnzz.com/stat.php?id=5297677&web_id=5297677&show=pic1"
+            language="JavaScript"></script>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+  <!-- END FOOTER -->
+
+  <!-- 返回顶部 代码 开始 -->
+  <div class="go-top dn" id="go-top">
+    <a href="javascript:;" class="uc-2vm"></a>
+    <div class="uc-2vm-pop dn">
+      <h2 class="title-2wm">微信咨询</h2>
+      <div class="logo-2wm-box">
+        <img src="../assets/img/luobosi_mp.png"" width=" 240" height="240">
+      </div>
+    </div>
+    <a href="https://h1.kefux.com/chat/pc/iframe.html?sub=vip&uid=201808221551193&wid=&type=appointed&history=0&aid=201808221551193&lang=cn&column=2&p"
+      target="_blank" class="feedback"></a>
+    <a href="javascript:;" class="go"></a>
+  </div>
+  <!-- 返回顶部 代码 结束 -->
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="../assets/js/vendor/jquery.min.js"></script>
+  <!-- <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+  <!--myjs-->
+  <script src="../assets/js/gotop.js"></script>
+
+
+  <!--萝卜丝·智能客服代码 开始 -->
+  <script src="https://cdn.kefux.com/chat/pc/js/custom.min.js?v=20220831"></script>
+  <script>
+    byteDesk.start("cn", {
+      style: 1,
+      border: "none",
+      shape: "round",
+      column: "one",
+      history: "0",
+      autoPop: false,
+      v2robot: "0",
+      position: "right",
+      margin: "50",
+      bottomMargin: "50",
+      bannerBackground: "#007bff",
+      bannerColor: "#ffffff",
+      buttonColor: "#ffffff",
+      buttonBackground: "#007bff",
+      buttonText: "在线客服",
+      adminUid: "201808221551193",
+      subDomain: "vip",
+      type: "workGroup",
+      workGroupWid: "201809061716221",
+      agentUid: "201808221551198",
+    });
+  </script>
+  <!--./萝卜丝·智能客服代码 结束 -->
+
+  <!--微客服代码开始-->
+  <!-- <link rel="stylesheet" type="text/css" href="http://admin.weikefu.net/AppKeFu/floattest2/web2/css/mini.min.css" />
+  <script type="text/javascript">
+    $.ajaxSetup({ cache: true });
+    $.getScript("http://admin.weikefu.net/AppKeFu/floattest2/web2/jsmin.php?v=1", function () {
+      Chat.launch('wgdemo', false);
+    });
+  </script> -->
+  <!--微客服代码结束-->
+
+  <!--萝卜丝·智能客服代码 开始 -->
+  <!-- <div id="byteDesk"></div>
+  <script type="text/javascript">
+    window.adminUid = "201808221551193";
+    // 默认设置工作组wid
+    // window.workGroupWid = "201809061716221";
+    // 设置有前置选择的工作组
+    // window.workGroupWid = "201808101819291";
+    // 机器人测试组
+    window.workGroupWid = "201809061716221";
+    window.subDomain = "vip";
+    window.type = "workGroup";
+    window.agentUid = "201808221551193";
+    (function () {
+      d = document;
+      s = d.createElement("script");
+      s.src = "https://cdn.bytedesk.com/js/float/narrow/index.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script> -->
+  <!--./萝卜丝·智能客服代码 结束 -->
+
+  <!-- umami -->
+  <script async defer data-website-id="4120e424-112b-4f72-bc7d-f87113b98bc8"
+    src="https://umami.weikefu.net/umami.js"></script>
+  <!-- end of umami -->
+
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "//matomo.weikefu.net/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+</body>
+
+</html>

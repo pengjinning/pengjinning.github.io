@@ -1,0 +1,725 @@
+body {
+  padding-top: 0px;
+  background-color: #fff;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption> h1 {
+  font-size: 45px;
+}
+
+.carousel-caption> p {
+  font-size: 18px;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+  height: 500px;
+  background-color: #0D8FDB;
+}
+
+.carousel-inner> .item> img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+
+.advantage {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.advantage .aim {
+  text-align: center;
+  font-size: 30px;
+  font-family: 微软雅黑;
+  font-weight: bold;
+  color: #cc0000;
+}
+
+.advantage .col-lg-3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.advantage h3 {
+  font-weight: bold;
+}
+
+.advantage .col-lg-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #999999;
+}
+
+.advantage #multichat,
+#robotchat,
+#datachat,
+#devchat {
+  background-color: #0D8FDB;
+  width: 80px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantage #multicon,
+#roboticon,
+#dataicon,
+#devicon {
+  margin: 22px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.clients {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.register {
+  text-align: center;
+  height: 320px;
+}
+
+.register h5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.register p {
+  color: #999999;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.scankefu {
+  text-align: center;
+}
+
+.scankefu h5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.scankefu p {
+  color: #999999;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.try {
+  height: 250px;
+}
+
+.try h5 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+/* ===========================
+--- Services
+============================ */
+
+.functions {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.functions h5 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.functions p {
+  color: #999999;
+  text-align: center;
+  text-indent:2em;
+  margin-top: 20px;
+}
+
+.functions .funitem {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.service-box {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.service-desc h5 {
+  padding: 8px;
+}
+
+.service-desc p {
+  clear: both;
+  margin-top: 2px;
+}
+
+#mobilefirst,
+#wechat,
+#thumbsup,
+#folderup,
+#shoppingcart,
+#globe,
+#retweet,
+#search,
+#member,
+#more {
+  background-color: #0D8FDB;
+  width: 80px;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mobileicon,
+#wechaticon,
+#thumbsupicon,
+#folderupicon,
+#shoppingcarticon,
+#globeicon,
+#retweeticon,
+#searchicon,
+#membericon,
+#moreicon {
+  margin: 30px;
+}
+
+.owl-img {
+  margin-top: 80px;
+  width: 260px;
+}
+
+.owl-img2 {
+  margin-top: 8px;
+  width: 160px;
+}
+
+.owl-client {
+  margin-top: 10px;
+}
+
+.owl-client-img {
+  margin: 10px;
+  width: 100px;
+}
+
+.partner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partner h5 {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.partner p {
+  font-size: 20px;
+  color: #999999;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.footer h5 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.fbottom p {
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
+  margin-top: 20px;
+  height: 50px;
+}
+
+
+/**/
+
+.dn {
+  display: none;
+}
+
+
+/* 返回顶部 */
+
+.go-top {
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+  width: 46px;
+  z-index: 99;
+}
+
+.go-top a {
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 10px;
+  background-image: url(../img/go-top.png?);
+}
+
+.go-top a:last-child {
+  margin-bottom: 0;
+}
+
+.go-top .go {
+  background-position: 0 -150px;
+}
+
+.go-top .go:hover {
+  background-position: 0 -250px;
+}
+
+.go-top .feedback {
+  background-position: 0 -100px;
+}
+
+.go-top .feedback:hover {
+  background-position: 0 -300px;
+}
+
+.go-top .uc-2vm {
+  background-position: 0 0;
+}
+
+.go-top .uc-2vm:hover {
+  background-position: 0 -350px;
+}
+
+
+/*
+.go-top .share{background-position: 0 -50px;}
+.go-top .share:hover{background-position: 0 -200px;}
+*/
+
+.go-top .uc-2vm-pop {
+  position: absolute;
+  right: 60px;
+  top: -100px;
+  width: 240px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, .1);
+  background: #fff;
+}
+
+.go-top .uc-2vm-pop .title-2wm {
+  font-size: 14px;
+  margin: 10px 20px;
+}
+
+.go-top .uc-2vm-pop .logo-2wm-box {
+  position: relative;
+}
+
+
+/*try.php*/
+
+
+/*title banner*/
+
+#title {
+  background-color: #0D8FDB;
+  height: 250px;
+  color: white;
+}
+
+#title h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#title p {
+  text-align: center;
+}
+
+
+/* loader */
+
+#preloader {
+  background: #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: none;
+  /*暂时不用，注释掉*/
+}
+
+#load {
+  z-index: 9999;
+  background-color: #FF4136;
+  opacity: 0.75;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  margin: -5px auto 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 0px;
+  border: 5px solid #FF4136;
+  box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+  animation: shadowSpin 1s ease-in-out infinite;
+}
+
+
+/*price.html*/
+
+.featurette {
+  background: #ffffff;
+  padding: 20px 0;
+  color: #000000;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item>i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.featurette-item>i:hover {
+  font-size: 68px;
+}
+
+
+/**/
+
+.marketing h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.marketing p {
+  font-size: 18px;
+  color: #999999;
+  margin: 35px 10px 0 50px;
+}
+
+#smart1,
+#smart3,
+#smart5 {
+  background-color: #0D8FDB;
+  width: 300px;
+  height: 300px;
+  color: white;
+  font-size: 90px;
+  margin-left: 90px;
+}
+
+#smart2,
+#smart4 {
+  background-color: #0D8FDB;
+  width: 300px;
+  height: 300px;
+  color: white;
+  font-size: 90px;
+  margin-left: 90px;
+}
+
+#smart1icon,
+#smart2icon,
+#smart3icon,
+#smart4icon,
+#smart5icon {
+  margin: 100px;
+}
+
+
+/**/
+
+.download {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.download .col-lg-3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.download h3 {
+  font-weight: bold;
+}
+
+.download .col-lg-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #999999;
+}
+
+.download #androidsdk,
+#iossdk,
+#wechaturl,
+#webh5 {
+  background-color: #0D8FDB;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download #androidsdkicon,
+#iossdkicon,
+#wechaturlicon,
+#webh5icon {
+  font-size: 15px;
+  color: white;
+  padding-top: 25px;
+}
+
+.download #android,
+#ios,
+#pc,
+#web,
+#mac {
+  background-color: #0D8FDB;
+  width: 80px;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download #androidicon,
+#iosicon,
+#pcicon,
+#webicon,
+#macicon {
+  font-size: 15px;
+  color: white;
+  padding-top: 25px;
+}
+
+
+/**/
+
+.faq {
+  text-align: center;
+}
+
+.faq h5 {
+  font-size: 25px;
+}
+
+.faq p {
+  color: #999999;
+  margin-top: 20px;
+}
+
+.col-lg-myfor5 {
+  width:20%
+}
+/*title banner*/
+
+#migunav {
+  /*background-size: 100% 100%;
+  background-image: url(../img/migunav.png);*/
+  background-color: #0D8FDB;
+  height: 300px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#migunav #miguimg {
+  margin-top: 15px;
+}
+
+#migunav h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#migunav p {
+  text-align: center;
+}
+
+#migunav a:link {
+  text-decoration: none;
+}
+
+#migunav a:active {
+  text-decoration: blink
+}
+
+#migunav a:hover {
+  text-decoration: underline;
+}
+
+#migunav a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.miguowl{
+  margin-top: -65px;
+}
+
+.miguintro h2{
+  margin-bottom: 25px;
+}
+
+.miguintro li{
+  margin-top: 15px; 
+}
+
+.miguowlrow{
+  margin-left: 10px;
+}
+
+.miguintro p{
+  text-indent:2em;
+}
+
+/* Custom Styles */
+
+ul.nav-tabs {
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+
+ul.nav-tabs li {
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+
+ul.nav-tabs li:first-child {
+  border-top: none;
+}
+
+ul.nav-tabs li a {
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 0;
+}
+
+ul.nav-tabs li.active a,
+ul.nav-tabs li.active a:hover {
+  color: #fff;
+  background: #0088cc;
+  border: 1px solid #0088cc;
+}
+
+ul.nav-tabs li:first-child a {
+  border-radius: 4px 4px 0 0;
+}
+
+ul.nav-tabs li:last-child a {
+  border-radius: 0 0 4px 4px;
+}
+
+ul.nav-tabs.affix {
+  top: 50px;
+  /* Set the top position of pinned element */
+}
+

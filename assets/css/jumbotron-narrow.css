@@ -1,0 +1,260 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #eee;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 30px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/**/
+
+#title {
+  clear: both;
+  background: url('?holder.js/100x100?theme=sky&text= &size=2&font=Helvetica&fontweight=normal');
+  height: 180px;
+  color: white;
+}
+
+#title h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#title p {
+  text-align: center;
+}
+
+#website a {
+  font-size: 10px;
+  color: white;
+  float: right;
+  padding: 15px 20px 0 0;
+}
+
+#mailtemp1,#mailtemp2,#mailtemp3,#mailtemp4
+{
+  background: url('?holder.js/100x100?text= &size=10&font=Helvetica&theme=sky');
+  width: 145px;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  padding: 25px 0 0 30px;
+}
+
+#title h1 a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#title h1 a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#title h1 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#title h1 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#title p a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#title p a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#title p a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#title p a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#website a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#website a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#website a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#websitea:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp1 a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp1 a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#mailtemp1 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#mailtemp1 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp2 a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp2 a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#mailtemp2 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#mailtemp2 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp3 a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp3 a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#mailtemp3 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#mailtemp3 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp4 a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#mailtemp4 a:active {
+    text-decoration: blink;
+    color: white;
+}
+
+#mailtemp4 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#mailtemp4 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.myhr{
+  color: #777;
+  background: #777;
+}
